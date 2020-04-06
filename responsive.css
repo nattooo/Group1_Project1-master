@@ -1,0 +1,183 @@
+@media all and (max-width: 1000px) {
+	.top-wrapper {
+		padding: 150px 0 160px 0;
+	}
+
+	.top-wrapper h1 {
+		font-size: 40px;
+	}
+
+	.top-wrapper h2 {
+		font-size: 20px;
+	}
+
+	.section-title {
+		font-size: 22px;
+	}
+
+	.lesson {
+		float: left;
+		width: 33%;
+		padding: 10px 10px 10px 10px;
+		color: rgba(0, 0, 0, 0.6);
+		text-align: center;
+	}
+
+	.lesson img {
+		width: 160px;
+		height: 160px;
+	}
+
+	.lesson p {
+		font-size: 13px;
+		padding-bottom: 60px;
+	}
+
+	.email,
+	.message {
+		width: 60%;
+	}
+
+	.contact-form p {
+		font-size: 13px;
+	}
+
+	.contact-submit {
+		font-size: 13px;
+	}
+
+	.footer-list li {
+		font-size: 13px;
+	}
+}
+
+@media all and (max-width: 670px) {
+	.menu-icon {
+		visibility: visible;
+		color: #16e612;
+	}
+
+	.header-right {
+		visibility: hidden;
+	}
+
+	.yellow-dot {
+		margin-top: 30px;
+	}
+
+	.top-wrapper {
+		padding: 120px 0 70px 0;
+	}
+
+	.top-wrapper h1 {
+		font-size: 30px;
+	}
+
+	.top-wrapper h2 {
+		font-size: 15px;
+	}
+
+	.section-title {
+		font-size: 18px;
+		padding-bottom: 15px;
+		margin-bottom: 30px;
+	}
+
+	.lesson {
+		float: left;
+		width: 33%;
+		padding: 10px 20px 10px 20px;
+		color: rgba(0, 0, 0, 0.6);
+		text-align: center;
+	}
+
+	.lesson img {
+		width: 80px;
+		height: 80px;
+	}
+
+	.lesson h3 {
+		font-size: 14px;
+	}
+
+	.lesson p {
+		font-size: 12px;
+		padding-bottom: 40px;
+	}
+
+	.email,
+	.message {
+		width: 80%;
+	}
+
+	.contact-form p {
+		font-size: 10px;
+	}
+
+	.contact-submit {
+		font-size: 10px;
+	}
+}
+
+@media all and (max-width: 460px) {
+	.menu-icon {
+		visibility: visible;
+		color: #16e612;
+	}
+	.top-wrapper {
+		padding: 110px 0 50px 0;
+	}
+
+	.top-wrapper h1 {
+		font-size: 15px;
+	}
+
+	.top-wrapper h2 {
+		font-size: 9px;
+	}
+
+	.section-title {
+		font-size: 15px;
+	}
+
+	.lesson {
+		float: left;
+		width: 100%;
+		padding: 0px 50px 0px 50px;
+		color: rgba(0, 0, 0, 0.6);
+		text-align: center;
+	}
+
+	.lesson img {
+		width: 100px;
+		height: 100px;
+    }
+    
+    .lesson h3 {
+		font-size: 14px;
+	}
+
+	.lesson p {
+		font-size: 12px;
+		padding-bottom: 10px;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	.footer-logo {
+		float: none;
+		border-bottom: 1px solid #dee7ec;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+	}
+
+	.footer-list {
+		float: none;
+	}
+
+	.footer-list li {
+		padding-bottom: 5px;
+	}
+}

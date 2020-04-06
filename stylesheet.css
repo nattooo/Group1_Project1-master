@@ -1,0 +1,237 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+	max-width: 1170px;
+	padding: 0 40px;
+	margin: 0 auto;
+}
+
+.header-left {
+	float: left;
+}
+
+.logo {
+	max-width: 125px;
+	margin-top: 15px;
+}
+
+header {
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+
+.black {
+	background-color: rgba(123, 187, 240, 0.9);
+}
+
+.header-right {
+	float: right;
+}
+
+.header-right a {
+	padding: 0 25px;
+	line-height: 60px;
+	transition: all 0.5s;
+	color: rgba(0, 0, 0, 0.6);
+	display: inline-block;
+	text-decoration: none;
+}
+
+.header-right a:hover {
+	color: black;
+}
+
+.menu-icon {
+	color: black;
+	float: right;
+	padding: 21px 0;
+	visibility: hidden;
+}
+
+.top-wrapper {
+	padding: 180px 0 250px 0;
+	text-align: center;
+}
+
+.top-wrapper img {
+	float: left;
+}
+
+.blue-dot {
+	width: 17%;
+	height: 17%;
+}
+
+.yellow-dot {
+	width: 13%;
+	height: 13%;
+	margin-top: 80px;
+}
+
+.top-title {
+	float: left;
+	width: 70%;
+}
+
+.top-wrapper h1 {
+	font-size: 55px;
+}
+
+.top-wrapper h2 {
+	font-size: 30px;
+}
+
+.top-wrapper span {
+    color: rgb(247, 204, 34);
+}
+
+
+.section-title {
+	font-size: 28px;
+	border-bottom: 2px solid #dee7ec;
+	padding-bottom: 15px;
+	margin-bottom: 80px;
+}
+  
+  
+.curriculum-wrapper {
+	padding: 70px 0;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.lesson {
+	float: left;
+	width: 33%;
+	padding: 0 30px;
+	color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+}
+
+.lesson img {
+	width: 220px;
+	height: 220px;
+}
+
+.lesson p {
+	font-weight: normal;
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+
+.contact-wrapper {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+}
+
+.contact-form {
+      color: rgba(0, 0, 0, 0.6);
+      text-align: center;
+}
+  
+.contact-form p {
+      font-weight: bold;
+    margin-bottom: 0px;
+}
+  
+.email,
+.message {
+    border: 1px solid #dee7ec;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 40%;
+}
+  
+.email:hover,
+.message:hover {
+    border: 1px solid #babcbe;
+}
+  
+.contact-submit {
+    border-radius: 50px;
+    border-style: solid;
+    padding: 10px 20px;
+    width: 30%;
+    display: inline-block;
+    opacity: 0.8;
+    background-color: #d1d3d4;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: normal;
+    transition: all 0.5s;
+}
+  
+.contact-submit:hover {
+    background-color: #b0b3b6;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+	background-color: rgba(247, 204, 34, 0.89);
+	color: white;
+	height: 135px;
+	width: 100%;
+	padding: 20px 0;
+	margin-top: 80px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 24px;
+}
+
+.footer-logo span {
+	color: rgb(46, 150, 219);
+}
+
+.footer-list {
+	float: right;
+}
+
+.footer-list li {
+    padding-bottom: 15px;
+}
+
+.footer-list li a {
+	color: white;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.footer-list li a:hover {
+	color: rgba(65, 64, 64, 0.842);
+}
